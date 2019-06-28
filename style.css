@@ -31,15 +31,20 @@ body {
 }
 
 #picture_container {
-    width: 260px;
-    height: 390px;
+    width: 200px;
+    height: 300px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
 
 #right_container {
-    width: 260px;
+    width: 200px;
     margin-right: 25px;
     flex: none;
+}
+
+@media screen and (max-width: 600px) {
+    #right_container { display: none; }
+    #picture_container { display: none; }
 }
