@@ -1,0 +1,43 @@
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
+
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+#header {
+    background-color: #C1002A;
+    height: 50px;
+    width: 100%;
+}
+
+#body_container {
+    display: flex;
+    padding: 10px;
+}
+
+#left_container {
+    margin-right: 25px;
+}
+
+#picture_container {
+    width: 260px;
+    height: 390px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+#right_container {
+    width: 260px;
+    margin-right: 25px;
+    flex: none;
+}
