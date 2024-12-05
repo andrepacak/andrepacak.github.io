@@ -67,3 +67,7 @@ ul li::before {
     #right_container { display: none; }
     #picture_container { display: none; }
 }
+
+img {
+  border-radius: 50%;
+}
