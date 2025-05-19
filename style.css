@@ -41,7 +41,15 @@ ul li::before {
 
 #body_container {
     display: flex;
-    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media screen and (min-width:800px) {
+  #body_container {
+      display: flex;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
 }
 
 #left_container {
@@ -51,7 +59,7 @@ ul li::before {
 
 #picture_container {
     width: 200px;
-    height: 300px;
+    height: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -70,4 +78,5 @@ ul li::before {
 
 img {
   border-radius: 50%;
+  border: 6px solid #1e81b0;
 }
